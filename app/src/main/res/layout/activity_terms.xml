@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".terms"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/termsconditions">
+            </ImageView>
+
+            <TextView
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_above="@+id/img1"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="30dp"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:justificationMode="inter_word"
+                android:fontFamily="sans-serif"
+                android:text="By using the KEC Alumni Association Alumni Application you agree to be bound by the following terms and conditions (“Terms of Use”). This agreement is personal to you; it cannot be assigned or transferred. If any provision of this agreement is invalid or unenforceable under applicable law, the remaining provisions will continue in full force and effect."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="serif"
+                android:text="Your Acceptance"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_below="@+id/t1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="By using and/or visiting the KEC Alumni Association alumni Application you signify your agreement to:  \n\n1)These terms and conditions (the “Terms of Use”); and \n\n2)The KEC Alumni Association privacy policy, which is incorporated here by reference. \n\nIf you do not agree to any of these terms, or the privacy policy, please do not use this Application. Nothing in this Agreement shall be deemed to confer any third-party rights or benefits."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_below="@+id/t2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:text="Application"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_below="@+id/t3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="These Terms of Use apply to all users of the Application, including users who are contributors of content and other materials or services on the Application. The term App shall be understood to include all aspects and services of the KEC Alumni Association Alumni Application, including but not limited to all products, software and services offered via any application such as the blogs, groups, clubs, directories, discussion boards, job boards, mentor platforms, messaging, social and professional networking, photo and video uploading, commenting, mailing lists, and other applications.
+
+\n\nThe Application electronically publishes news and information that may include facts, views, opinions and recommendations of individuals and organizations deemed of interest to alumni. KEC Alumni Association does not review, monitor, verify or guarantee the accuracy, completeness or timeliness of or otherwise endorse the information provided by any organization or individual, give advice or advocate the purchase or sale of any product or service not directly offered by KEC Alumni Association or its affiliates.
+
+\n\nThe Application may include unmoderated forums containing the personal opinions and other expressions of the persons who post entries on a wide range of topics. The text and other materials on this App are the opinion of the specific author and are not statements of advice, opinion, or information of KEC Alumni Association.
+
+\n\nThe Application may contain links to third-party applications that are not owned by, affiliated with or controlled by KEC Alumni Association. KEC Alumni Association has no control over and assumes no responsibility for, the content, privacy policies, or practices of any third-party applications not directly affiliated with KEC Alumni Association. In addition, the App will not and cannot censor or edit the content of any non-affiliated third-party site. By using the Application, you expressly release KEC Alumni Association from any and all liability arising from your use of any third-party apps."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_below="@+id/t4"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Your Account"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_below="@+id/t5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="In order to access some features of the Application, you will have to create an account. By creating an account you agree to these Terms of Use and thereby agree to use of the Application in a manner consistent with all applicable laws and regulations and in accordance with the terms and conditions set out in the policies and guidelines outlined here. Please note that you will be referred to as “User” from time to time in this Agreement. You may never use another’s account. Your User account may not be shared, transferred, or sold to other parties. When creating your account, you must provide accurate and complete information. You are solely responsible for the activity that occurs on your account, and you must keep your account password secure. You must notify KEC Alumni Association immediately of any breach of security or unauthorized use of your account. Although KEC Alumni Association will not be liable for your losses caused by any unauthorized use of your account, you may be liable for the losses of KEC Alumni Association or others due to such unauthorized use."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_below="@+id/t6"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Rules for Online Conduct"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_below="@+id/t7"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="You agree to use the Application in accordance with all applicable laws. Because KEC Alumni Association is a nonprofit, tax-exempt organization, you agree that you will not use the Application for organized partisan political activities or commercial purposes. You further agree that you will use all of the services or information provided on the Application in accordance with the rules of conduct set forth below. This includes interactions with other users by email, web post, postal mail, or phone."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_below="@+id/t8"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Prohibited conduct:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/t10"
+                android:layout_below="@+id/t9"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="1)Posting content that defames or threatens others
+\n\n2)Posting statements that are bigoted, hateful or racially offensive
+\n\n3)Posting content that infringes another’s intellectual property, including, but not limited to, copyrights, trademarks or trade secrets. When quoting copyrighted material, please adhere to the Electronic Frontier Foundation’s Fair Use Guidelines
+\n\n4)Posting material that contains obscene language or images
+\n\n5)Advertising or any form of commercial solicitation"
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t11"
+                android:layout_below="@+id/t10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:justificationMode="inter_word"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="Statements or postings that violate the above terms will be deleted from the Application upon discovery. Copyrighted material, including without limitation software, graphics, text, photographs, sound, video and musical recordings, may not be placed on the Application without the express permission of the owner of the copyright of the material, or other legal entitlement to use the material. Any person posting material protected by copyright for the benefit of any third-party represents and warrants consent or permission has been obtained to post such materials. Although KEC Alumni Association does not screen or monitor content posted by users to the Application, KEC Alumni Association reserves the right to remove content that violates the above rules of which it becomes aware.
+
+\n\nYou may not attempt to use or distribute tools designed for compromising security or take any action to compromise the security of this app. Examples of these tools include but are not limited to password guessing programs, cracking tools or network probing tools. You may not “flood” or disrupt the Application through any means or process.
+
+\n\nYou may not copy, scrape, download, export or otherwise capture any data obtained in the Application, e.g., the alumni directory, and/or store it outside of the system, e.g., in a separate spreadsheet, email list, database or another external repository without the permission of KEC Alumni Association. KEC Alumni Association may grant permission by configuring User accounts to allow such activities.
+
+\n\nYou agree that you will not access or attempt to access any other user’s account, or misrepresent or attempt to misrepresent your identity while using the Application."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t12"
+                android:layout_below="@+id/t11"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Online Communication Services"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t13"
+                android:layout_below="@+id/t12"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="Communication services provided through the Application, such as the directory, online communities, discussion boards, blogs, messaging, social and professional networking, and other services in the future, are a part of the Application designed for communication between Users. KEC Alumni Association will not monitor these communications but reserves the right to take action against any User who defames or harasses another User through any of the services offered through the Application if it comes to KEC Alumni Association’s attention."
+                android:textSize="20dp"
+                android:textStyle="normal">
+            </TextView>
+
+            <TextView
+                android:id="@+id/t14"
+                android:layout_below="@+id/t13"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Online Alumni Communities"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t15"
+                android:layout_below="@+id/t14"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="KEC Alumni Association provides a platform on which alumni can create and join online alumni communities based on shared interests or experiences. Participants in online alumni communities may not represent or imply that their opinions represent those of KEC Alumni Association. KEC Alumni Association reserves the right to remove all or any portion of an online alumni community’s information from the platform at any time and at KEC Alumni Association’s sole discretion. All online alumni community participants and organizers agree not to post or facilitate the posting of any material in violation of these Terms of Use. Online alumni community participants and organizers also agree to provide reasonable assistance at the request of KEC Alumni Association and its representatives to address any violations of this policy as determined by KEC Alumni Association. Participants and organizers also agree not to use the online alumni community for any activity that violates any federal, state or local law."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/t16"
+                android:layout_below="@+id/t15"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Disclaimer of Warranty / Limitation of Liability"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t17"
+                android:layout_below="@+id/t16"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="KEC Alumni Association does not warrant that the Application will operate in an uninterrupted or error-free manner or that the Application is free of viruses or other harmful components. Use of information obtained from or through this application is at your own risk.
+
+   \n\nYOU AGREE THAT KEC Alumni Association WILL NOT BE LIABLE TO YOU FOR ANY LOSS OR DAMAGES, EITHER ACTUAL OR CONSEQUENTIAL, ARISING OUT OF OR RELATING TO THESE TERMS OF USE, OR TO YOUR (OR ANY THIRD PARTY’S) USE OR INABILITY TO USE THE WEBSITE, OR TO YOUR PLACEMENT OF CONTENT ON THE APPLICATION, OR TO YOUR RELIANCE UPON INFORMATION OBTAINED FROM OR THROUGH THE APPLICATION. IN PARTICULAR, KEC Alumni Association WILL HAVE NO LIABILITY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, PUNITIVE, SPECIAL OR INCIDENTAL DAMAGES, WHETHER FORESEEABLE OR UNFORESEEABLE, (INCLUDING, BUT NOT LIMITED TO, CLAIMS FOR DEFAMATION, ERRORS, MISUSE OF EMAIL OR OTHER SERVICES, LOSS OF DATA, OR INTERRUPTION IN AVAILABILITY OF DATA), ARISING OUT OF OR RELATING TO THESE TERMS, YOUR USE OF OR INABILITY TO USE A APPLICATION, OR ANY PURCHASES ON THE APPLICATION, OR YOUR PLACEMENT OF CONTENT ON A APPLICATION, OR YOUR RELIANCE UPON INFORMATION OBTAINED FROM OR THROUGH A APPLICATION, WHETHER BASED IN CONTRACT, TORT, STATUTORY OR OTHER LAW, EXCEPT ONLY TO THE EXTENT THAT APPLICABLE LAW REQUIRES SUCH LIABILITY.
+
+   \n\nKEC Alumni Association makes no representation regarding your ability to transmit and receive information from or through the Application and you agree and acknowledge that your ability to access the Application may be impaired. KEC Alumni Association disclaims any and all liability resulting from or related to such events."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t18"
+                android:layout_below="@+id/t17"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Choice of Law/Forum Selection"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t19"
+                android:layout_below="@+id/t18"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="All matters relating to the Application and these Terms of Use and any dispute or claim arising therefrom or related thereto (in each case, including non-contractual disputes or claims), shall be governed by and construed in accordance with the internal laws of the State of California without giving effect to any choice or conflict of law provision or rule.
+
+\n\nAny legal suit, action or proceeding arising out of, or related to, these Terms of Use or the Application shall be instituted exclusively in the federal courts of the United States or the courts of the State of California located in the county of San Francisco. You waive any and all objections to the exercise of jurisdiction over you by such courts and to venue in such courts."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t20"
+                android:layout_below="@+id/t19"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Notice"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t21"
+                android:layout_below="@+id/t20"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="KEC Alumni Association reserves the right to update this Terms of Use from time to time. KEC Alumni Association will notify you of any changes and/or modifications by updating the “Last Modified” date on this page, sending an electronic communication detailing the changes, posting a notification on the Services, or as required by law. Any changes or modifications will be effective immediately upon posting the update on KEC Alumni Association’s Services. You are encouraged to periodically review these Terms of Use to stay informed of updates. Your continued use of KEC Alumni Association’s Services after receipt of such revised Terms of Use will be deemed an acceptance of the changes."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t22"
+                android:layout_below="@+id/t21"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Termination of Service"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t23"
+                android:layout_below="@+id/t22"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="User may terminate this Agreement by cancelling his or her account. To do this the user must contact KEC Alumni Association through phone or mail as listed below.
+
+\n\nKEC Alumni Association may terminate your account or access rights to the Application at any time, without notice, for conduct that KEC Alumni Association believes violates this Agreement or other policies or guidelines that KEC Alumni Association has posted. KEC Alumni Association may terminate your account or your access rights to the Application for online conduct that KEC Alumni Association believes is harmful to other Users, to KEC Alumni Association’s business, or to other information providers."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t24"
+                android:layout_below="@+id/t23"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Trademarks"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t25"
+                android:layout_below="@+id/t24"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="The logo, name and all graphics on the Application or its affiliates are trademarks of KEC Alumni Association or its affiliates. You must not use, reproduce, copy, or redistribute such marks without the prior written permission of KEC Alumni Association or its affiliates. All other trademarks or service marks appearing on the Application are the marks of their respective owners."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t26"
+                android:layout_below="@+id/t25"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Indemnification"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t27"
+                android:layout_below="@+id/t26"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="You agree to defend, indemnify and hold KEC Alumni Association, its trustees, officers, employees and agents harmless from any claims, losses or damages, including legal fees, resulting from your violation of these Terms of Use, your use of the Application or your placement of any content onto the Application, and to fully cooperate in KEC Alumni Association’s defence against any such claims."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t28"
+                android:layout_below="@+id/t27"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Copyright License and Complaints"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t29"
+                android:layout_below="@+id/t28"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="Owners of posted materials grant KEC Alumni Association a non-exclusive, royalty-free, perpetual license to reproduce and distribute any content posted on the Application.
+
+\n\nKEC Alumni Association respects the intellectual property rights of others and complies with the Digital Millennium Copyright Act (DMCA). If you believe your copyright has been violated on the Application, please provide the following information:
+
+\n\n1)The name, address, and physical or electronic signature of the complaining party
+\n\n2)Identification of the infringing materials and their Internet location, or if the service provider is an “information location tool” such as a search engine, the reference or link to the infringing materials
+\n\n3)Sufficient information to identify the copyrighted works
+\n\n4)A statement by the copyright holder of a good faith belief that there is no legal basis for the use complained of
+\n\n5)A statement of the accuracy of the notice and, under penalty of perjury, that the complaining party is authorized to act on the behalf of the copyright holder"
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t30"
+                android:layout_below="@+id/t29"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Entire Agreement"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t31"
+                android:layout_below="@+id/t30"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="The Terms of Use and our Privacy Policy constitute the sole and entire agreement between you and KEC Alumni Association with respect to the Application and supersede all prior and contemporaneous understandings, agreements, representations and warranties, both written and oral, with respect to the Application."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t32"
+                android:layout_below="@+id/t31"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Contact Information"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t33"
+                android:layout_below="@+id/t32"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif"
+                android:text="To ask questions or comment about this Terms of Use, contact us at "
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/t34"
+                android:layout_below="@+id/t33"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="serif"
+                android:text="kecalumni@kongu.ac.in"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic">
+
+            </TextView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+
+<com.google.android.material.navigation.NavigationView
+app:headerLayout="@layout/header"
+android:id="@+id/nav_view"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:background="@color/white"
+app:itemTextColor="@color/darkgray"
+app:itemIconTint="@color/darkgray"
+app:menu="@menu/drawermenu"
+android:layout_gravity="start"
+tools:ignore="MissingClass">
+
+
+</com.google.android.material.navigation.NavigationView>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>

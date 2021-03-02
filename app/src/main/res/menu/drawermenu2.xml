@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Drawermenu2">
+    <item android:id="@+id/dashboard" android:title="Dashboard" android:icon="@drawable/ic_baseline_login_identity_24"></item>
+    <item android:id="@+id/signup" android:title="Sign Up and Login" android:icon="@drawable/ic_baseline_login_identity_24"></item>
+    <item android:id="@+id/search" android:title="Search" android:icon="@drawable/ic_baseline_search_24"></item>
+    <item android:id="@+id/about_us" android:title="About Us" android:icon="@drawable/about"></item>
+    <item android:id="@+id/events" android:title="Events" android:icon="@drawable/event"></item>
+    <item android:id="@+id/connect" android:title="Connect" android:icon="@drawable/connect"></item>
+    <item android:id="@+id/chapter" android:title="Chapter" android:icon="@drawable/chapter"></item>
+    <item android:id="@+id/directory" android:title="Directory" android:icon="@drawable/directory"></item>
+    <item android:id="@+id/gallery" android:title="Gallery" android:icon="@drawable/gallery"></item>
+    <item android:id="@+id/contribution" android:title="Alumni Contribution" android:icon="@drawable/alumnioffer"></item>
+    <item android:id="@+id/achievement" android:title="Alumni Achievements" android:icon="@drawable/achivements"></item>
+    <item android:id="@+id/faq" android:title="FAQ" android:icon="@drawable/ic_baseline_question_answer_24"></item>
+    <item android:id="@+id/profile" android:title="Profile Settings" android:icon="@drawable/ic_baseline_settings_24"></item>
+    <item android:id="@+id/logout" android:title="Log out" android:icon="@drawable/ic_baseline_exit_to_app_24"></item>
+</menu>

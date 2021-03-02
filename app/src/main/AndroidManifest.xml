@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.darkmode">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Darkmode"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".view"/>
+        <activity android:name=".microsoftf" />
+        <activity android:name=".googlef" />
+        <activity android:name=".microsoft" />
+        <activity android:name=".google" />
+        <activity android:name=".campus" />
+        <activity android:name=".others" />
+        <activity android:name=".guest" />
+        <activity android:name=".mentor" />
+        <activity android:name=".login" />
+        <activity android:name=".recruit" />
+        <activity android:name=".contribution" />
+        <activity android:name=".op" />
+        <activity android:name=".iv" />
+        <activity android:name=".intern" />
+        <activity android:name=".submit_form" />
+        <activity android:name=".signup" />
+        <activity android:name=".achievement" />
+        <activity android:name=".dark_mode" />
+        <activity android:name=".terms" />
+        <activity android:name=".notify" />
+        <activity android:name=".policy" />
+        <activity android:name=".corres" />
+        <activity android:name=".princi" />
+        <activity android:name=".home" />
+        <activity android:name=".Chapter" />
+        <activity android:name=".enquiryAct" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Chapter_bangalore" />
+        <activity android:name=".Chapter_middle_east" />
+        <activity android:name=".Chapter_erode" />
+        <activity android:name=".Chapter_australia" />
+        <activity android:name=".Chapter_singapore" />
+        <activity android:name=".Chapter_america" />
+        <activity android:name=".Chapter_uk" />
+        <activity android:name=".directionAct" />
+        <activity android:name=".contactUs" />
+        <activity android:name=".deptco" />
+        <activity android:name=".officeBearers" />
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".AboutusActivity" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".Directory" />
+        <activity android:name=".Directory2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

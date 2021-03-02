@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".policy"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img11"
+                android:layout_centerHorizontal="true"
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/privacypolicy">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/te1"
+                android:layout_below="@+id/img11"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:text="KEC Alumni Association"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te2"
+                android:layout_below="@+id/te1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_vertical|end"
+                android:justificationMode="inter_word"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:fontFamily="sans-serif"
+                android:text="Alumni association of Kongu Engineering College (“Alumni Association”) recognizes the importance of your privacy and is committed to ensuring that you are aware of how your information is being used. This policy describes the types of information the Alumni Association may collect from you or that you may provide in relation to the use or access of the Application, https://www.alumni.kongu.edu/wp and the manner in which such information is collected used, processed, disclosed and maintained. Capitalised terms not defined herein shall have the same meaning as those ascribed to them in the Terms of Use. Please read and understand the policy carefully. If you do not agree with our policies and our practices in the way we treat User Information, your choice is to not use the Application. Your use or access of the Website, shall constitute your agreement to this Privacy Policy. By accepting the Privacy Policy and the Terms of use, you expressly consent to the Alumni Association’s use and disclosure of your personal information in accordance with this Privacy Policy."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te3"
+                android:layout_below="@+id/te2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Applicability of the policy:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te4"
+                android:layout_below="@+id/te3"
+                android:layout_marginLeft="15dp"
+
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="This policy shall apply to all information the Alumni Association collects on the Application, including but not limited to any information you upload, emails that you exchange with the Alumni Association,any information submitted by you to the Alumni Association. The policy does not apply to, nor does the Alumni Association take any responsibility for, any information that is collected by any third party either using the Application or through any links on the Application or through any of the advertisements."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/te5"
+                android:layout_below="@+id/te4"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:text="Nature Of Information Collected And Manner Of Collection:"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te6"
+                android:layout_below="@+id/te5"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="In the use of the Application, as you navigate through the Application, the Alumni Association may collect different types of information.This may include User Information, information that is personally identifiable,other information which may not be personally identifiable, information on the usage patterns of any user including you, searches that you have done on the Application, advertisements or third party links that you have visited, any emails or other correspondence you have exchanged on the Application or with the Alumni Association. You understand that the information collected by the Alumni Association, may be collected directly or through tracking of your usage of the Application. The usage details may include IP addresses, details of your computer equipment, browser, location, connections, any information that the Alumni Association may collect through the use of cookies and other tracking technologies. The collection of data may in most cases be automatic.”Cookies” are files that would be placed in your system’s hard drive and are intended to improve your user experience, by enabling the Alumni Association to track your usage and preference. These cookies may track your Application usage, advertisement and links that you visit and other User Information. Most cookies the Alumni Association uses are limited to a session,which mean they will be automatically deleted when your session closes. You may decline these cookies by changing your browser settings, if permitted, however do note that this may impact certain features of the Application or your user experience in using the Application."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te37"
+                android:layout_below="@+id/te6"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:text="Note:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te7"
+                android:layout_below="@+id/te37"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="Advertisements on the Application may be posted by third-party advertisers, and such third parties may use cookies and other automatic tracking technologies to collect information about you, including but not limited to web behavioural information and patterns. The Alumni Association does not control nor takes any responsibility for such third parties, their collection and use of information or their tracking technologies or how they may be used. You also may provide information to be published or displayed or posted on the Application, or transmitted to other users of the Application or third parties. Any such information is posted or transmitted to others at your own risk. Please be aware that the Alumni Association cannot control the actions of other users of the Website with whom you may choose to share information with."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te8"
+                android:layout_below="@+id/te7"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Use of Your Information:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te9"
+                android:layout_below="@+id/te8"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="The information that we collect on the Application will be used for the purposes of allowing you to procure, advertise or bid for projects related to the provision of information technology services or information technology enabled services. The information including any User Information will be available to other registered users of the Application. No personally identifiable information will be disclosed or shared with any third party without your express consent. For the purposes of this policy, personally identifiable information shall mean name; age; gender; bank account information; telephone numbers; location data; email addresses; payment, billing or shipping information; customer service information about you as a user of the Application;or other information specifically related to your use of particular services or offerings of the Alumni Association, including information that you publicly post using tools made available by the Alumni Association. Please do not include any personal information, personally identifiable information or sensitive personal information as part your submissions to the Alumni Association, except to the extent specifically needed to register on the Application. If the Alumni Association determines that any information you have provided or uploaded violates the terms of this Privacy Policy, the Alumni Association has the right, in its absolute discretion, to delete or destroy such information without incurring any liability to you. The Alumni Association will not publish, sell or rent your personal information to third parties for their marketing purposes without your explicit consent. The Alumni Association may also use the information for analytical purposes, including but not limited to assessing usage data, usage patterns, estimate audience sizes and other similar activities. You agree that we may use your personal information to contact you and deliver information or targeted advertisements, administrative notices and any other communication relevant to your use of the Application."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te10"
+                android:layout_below="@+id/te9"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Disclosure of Your information:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/te11"
+                android:layout_below="@+id/te10"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="The User Information you provide on the Application may be disclosed by the Alumni Association to its subscribers and registered users,other third party’s who access the Application, third party advertisers, our subsidiaries and affiliates, or to other third party service providers of the Alumni Association who require the information for the purposes of operating and maintaining the Application. The Alumni Association will comply with requests and directions of all governmental, law enforcement or regulatory authorities,which it believes in good faith to be in accordance with any applicable law.Such compliance may include providing User Information, personally identifiable information or any other information available to such agency or authority. By providing any information on the Application, you consent to us providing such information to any governmental, law enforcement or regulatory authorities who exercise jurisdiction over the Alumni Association and the Application."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te12"
+                android:layout_below="@+id/te11"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Data Security:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te13"
+                android:layout_below="@+id/te12"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="The information that you provide, subject to disclosure in accordance with this Privacy Policy and Terms of Use, shall be maintained in a safe and secure manner. The Alumni Association’s databases and information are stored on secure servers with appropriate firewalls. As a user of the Application,you have the responsibility to ensure data security. You should use the Application in a responsible manner. Do not share your username or password with any person. You are solely responsible for all acts done under the username you are registered under. Given the nature of internet transactions, the Alumni Association does not take any responsibility for the transmission of information including User Information to the Application. Any transmission of User Information on the internet is done at your risk. The Alumni Association does not take any responsibility for you or any third party circumventing the privacy settings or security measures contained on the Application. While the Alumni Association will use all reasonable efforts to ensure that your User Information and other information submitted by you is safe and secure, it offers no representation, warranties or other assurances that the security measures are adequate, safe, fool proof or impenetrable."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te14"
+                android:layout_below="@+id/te13"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Accessing and Updating Your Information:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te15"
+                android:layout_below="@+id/te14"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="You can change, alter of otherwise modify or update your User Information at any time by accessing the Application using your registered username and accessing your user account. You may also change and/or delete any of the information you have submitted. Do note however, the Alumni Association reserves the rights to save any usage information and you are not entitled to seek the deletion of the same. The Alumni Association at its sole discretion may permit or deny the change of any information, if it is believes the same is required to observe applicable laws."
+                android:textSize="20dp"
+                android:textStyle="normal">
+            </TextView>
+
+            <TextView
+                android:id="@+id/te16"
+                android:layout_below="@+id/te15"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Age Restrictions:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te17"
+                android:layout_below="@+id/te16"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="The Application is only intended for users who are of 18 years of age or older. If you are not of the requisite age you are not to provide any User Information or other information. If it comes to the Alumni Association’s attention that any User Information or information pertains to an individual under the age of 18 years, such User Information or information will be deleted without notice to you."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+
+
+            <TextView
+                android:id="@+id/te19"
+                android:layout_below="@+id/te17"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Amendments to the Privacy Policy:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te20"
+                android:layout_below="@+id/te19"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+
+                android:layout_marginRight="15dp"
+                android:fontFamily="sans-serif"
+                android:text="This Privacy Policy is subject to change at the Alumni Association’s sole discretion. Any changes to the Privacy Policy will be notified by a notice on the home page."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te21"
+                android:layout_below="@+id/te20"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:textAllCaps="true"
+                android:text="Terms of Use:"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/te22"
+                android:layout_below="@+id/te21"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="15dp"
+                android:justificationMode="inter_word"
+                android:fontFamily="sans-serif"
+                android:text="This Privacy policy shall form a part of the Terms of Use Third party vendors, including Google, use cookies to serve ads based on a user’s prior visits to your applications.
+
+\n\nGoogle’s use of the Double Click cookie enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet. Users may opt out of the use of the Double Click cookie for interest-based advertising by visiting Ads Settings. (Alternatively,you can direct users to opt out of a third-party vendor’s use of cookies for interest based advertising by visiting about ads.info.)"
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+<com.google.android.material.navigation.NavigationView
+app:headerLayout="@layout/header"
+android:id="@+id/nav_view"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:background="@color/white"
+app:itemTextColor="@color/darkgray"
+app:itemIconTint="@color/darkgray"
+app:menu="@menu/drawermenu"
+android:layout_gravity="start"
+tools:ignore="MissingClass">
+
+
+</com.google.android.material.navigation.NavigationView>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+

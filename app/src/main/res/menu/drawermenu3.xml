@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/office"
+        android:title="Office bearers"
+        android:icon="@drawable/ic_baseline_people_outline_24"
+        app:showAsAction="always"></item>
+
+    <item android:id="@+id/dept"
+        android:title="Department Coordinators"
+        android:icon="@drawable/ic_baseline_group_24"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/contact"
+        android:title="Contact Us"
+        android:icon="@drawable/ic_baseline_contact_support_24"
+        app:showAsAction="always" ></item>
+    <item
+        android:id="@+id/campus"
+        android:icon="@mipmap/campus"
+        android:title="Campus Visit"
+        app:showAsAction="always"></item>
+
+</menu>
+
+

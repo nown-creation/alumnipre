@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".princi">
+
+<ScrollView
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="800dp">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="serif"
+        android:text="Dr.V.BALUSAMY PRINCIPAL\n\n"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="260dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="sans-serif"
+        android:justificationMode="inter_word"
+        android:text="\n     Kongu Engineering College is a renowned and prestigious institution of the city of Erode and I feel extremely happy and privileged to be part of this magnificent educational institution. In this context it all depends on every individual how one responds to the situation with the right mindset. I remember the words of Benjamin Disraeli, “Nurture your mind with great thoughts, for you will never go any higher than you think.” Indeed, we need better education to have better thoughts, to be better human persons, to build a better society. I firmly believe that every human being endowed with various talents and skills is a precious gift of God. I am very pleased to bring to your notice that Kongu Engineering College is one of those Colleges which provides ample opportunities along with a value based wholesome quality education to nurture the inner potentials of every child. Let’s work together to develop a strong, interactive alumni community which in turn will forge a successful alma mater.
+"
+        android:textSize="17dp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:src="@drawable/principal"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>I
+
+</RelativeLayout>
+
+</ScrollView>
+<com.google.android.material.navigation.NavigationView
+app:headerLayout="@layout/header"
+android:id="@+id/nav_view"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:background="@color/white"
+app:itemTextColor="@color/darkgray"
+app:itemIconTint="@color/darkgray"
+app:menu="@menu/drawermenu"
+android:layout_gravity="start"
+tools:ignore="MissingClass">
+</com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

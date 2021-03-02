@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp">
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/chapter_kecaa"
+            android:layout_width="200dp"
+            android:layout_height="100dp">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="41dp"
+            android:layout_marginRight="341dp"
+            android:src="@drawable/klog">
+
+        </ImageView>
+
+        <TextView
+            android:text="Welcome To\nKONGU ENGINEERING COLLEGE ALUMNI ASSOCIATION"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="150dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true">
+
+        </TextView>
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="Event Timeline"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="250dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="300dp"
+            android:src="@drawable/linehome"
+            android:layout_width="wrap_content"
+            android:layout_height="650dp"
+            android:layout_centerHorizontal="true">
+
+        </ImageView>
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="Messages\nfor you!"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="990dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/princi"
+            android:background="#8BC3EF"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="PRINCIPAL\nMESSAGE"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1070dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/corres"
+            android:background="#F39797"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:text="CORRESPONDENT\nMESSAGE"
+            android:layout_marginLeft="200dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="1070dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <TextView
+            android:layout_marginLeft="25dp"
+            android:text="Projects\nand Offers"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:layout_marginTop="1160dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TableLayout
+            android:id="@+id/table1"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1240dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+
+
+            <!--Table Heading-->
+            <TableRow
+                android:background="#00b38f">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/col1"
+                    android:textColor="@android:color/black"
+                    android:padding="10sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:fontFamily="serif"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal"
+                    >
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/col2"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/col3"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+            </TableRow>
+
+            <!--Table Data-->
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="@string/row1"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row1google"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row1micro"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="@string/row2"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row2google"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row2micro"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="@string/row3"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row3google"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row3micro"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="@string/row4"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row4google"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row4micro"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:fontFamily="serif"
+                    android:gravity="center_horizontal"
+                    android:padding="10sp"
+                    android:text="@string/row5"
+                    android:textAllCaps="true"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row5google"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/row5micro"
+                    android:textColor="@android:color/background_dark"
+                    android:padding="10sp"
+                    android:textStyle="normal"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-light"
+                    android:textSize="16sp"
+                    android:layout_weight="4"
+                    android:gravity="center_horizontal">
+
+                </TextView>
+
+
+
+
+            </TableRow>
+            <TableRow>
+
+                <Button
+                    android:id="@+id/google"
+                    android:layout_width="116dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="115dp"
+                    android:background="#FFC107"
+                    android:fontFamily="serif"
+                    android:text="apply"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/microsoft"
+                    android:layout_width="116dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:background="#8BC34A"
+                    android:fontFamily="serif"
+                    android:text="apply"
+                    android:textAllCaps="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold">
+
+                </Button>
+
+
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/img10"
+            android:layout_below="@+id/table1"
+            android:src="@drawable/map"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tex1"
+            android:layout_below="@+id/img10"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="serif"
+            android:textSize="20sp"
+            android:text="NEWS AND UPDATES"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tex2"
+            android:layout_below="@+id/tex1"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textSize="24sp"
+            android:text="1)ERODE\n  CHAPTER\n  INAUGURAL"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tex3"
+            android:layout_below="@+id/tex2"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="15sp"
+            android:text="1 july 12, 2020\n 0 comments \n kec alumni association"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/tex4"
+            android:layout_below="@+id/tex3"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="20sp"
+            android:text="The KECAA Erode chapter was formally inaugurated by Thiru P.Sachithanandhan ,Correspondent ,KEC on 14.03.2020 at Texvalley Erode. Around 75 alumni participated in the function and interacted among themselves"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_below="@+id/tex4"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/news1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_below="@+id/img3"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/news2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_below="@+id/img4"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/news3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_below="@+id/img5"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/news4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+
+        <TextView
+            android:id="@+id/tex5"
+            android:layout_below="@+id/img6"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:textSize="24sp"
+            android:text="2)KECAA \n  NORTHAMERICA\n  CHAPTER \n  INAUGURATION"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tex6"
+            android:layout_below="@+id/tex5"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="15sp"
+            android:text=" july 12, 2020\n one comment\n kec alumni association"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+
+
+        <TextView
+            android:id="@+id/tex7"
+            android:layout_below="@+id/tex6"
+            android:textStyle="italic"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="20sp"
+            android:text="The KEC – US chapter was formally inaugurated by Prof.S.Kuppuswami on 23.06.2013 At Donaldson Park (Grove #4), South 2nd Avenue, Highland Park, NJ 08904.Around 25 alumni participated in the function along with their family members and interacted among themselves and the Principal of KEC."
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp">
+
+        </TextView>
+
+
+    </RelativeLayout>
+</ScrollView>
+    <com.google.android.material.navigation.NavigationView
+        app:headerLayout="@layout/header"
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:itemTextColor="@color/darkgray"
+        app:itemIconTint="@color/darkgray"
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start"
+        tools:ignore="MissingClass">
+
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".microsoft"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="500dp"
+                android:layout_height="300dp"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/microsoft">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:text="Microsoft"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="340dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="serif"
+                android:text="http://www.microsoft.com"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="390dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="About Company"
+                android:textSize="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="430dp"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:fontFamily="sans-serif-light"
+                android:text="Los Angeles\nOnline: 4 years"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="490dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Follektiv Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="840dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="Job Details"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="890dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Marketing Manager"
+                android:textColor="#02126A"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="940dp"
+                android:layout_marginRight="10dp"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:text="$20,000 - $50,000
+\nFull Time  ·  Remote OK  ·  San Francisco  ·  Designer  ·  UI/UX Design  ·  User Researcher"
+                android:textSize="20dp"
+                android:textStyle="italic">
+
+            </TextView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1060dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Follektiv Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius."
+                android:textSize="20dp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="450dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="1420dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textColor="@color/black"
+                android:text="1)The team: A close-knit group of people eager to help you fit in. We love what we're doing, and we also love a good laugh.\n2)The role: A fantastic opportunity to build and perfect a platform poised to change the world of work as we know it.\n3)The location: Beautiful Tallinn, an innovative and spirited city with an intriguing history and a bright future. You'll never cease to be amazed by the cultural and meteorological quirks of this pint-sized capital."
+                android:textSize="20dp"
+                android:textStyle="italic">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="1740dp"
+                android:background="#599F07"
+                android:fontFamily="monospace"
+                android:text="APPLY TO MICROSOFT"
+                android:textColor="#ffffff"
+                android:textSize="17sp">
+
+            </Button>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
+<com.google.android.material.navigation.NavigationView
+app:headerLayout="@layout/header"
+android:id="@+id/nav_view"
+android:layout_width="wrap_content"
+android:layout_height="match_parent"
+android:background="@color/white"
+app:itemTextColor="@color/darkgray"
+app:itemIconTint="@color/darkgray"
+app:menu="@menu/drawermenu"
+android:layout_gravity="start"
+tools:ignore="MissingClass">
+
+
+</com.google.android.material.navigation.NavigationView>
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>

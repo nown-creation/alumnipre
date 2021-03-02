@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/drawer"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".AboutusActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/about2">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="300dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+
+                    android:text="ESTABLISHMENT OF KEC ALUMNI ASSOCIATION (KECAA)"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="370dp"
+                    android:layout_marginRight="10dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="sans-serif"
+                    android:text="The first batch of Kongu Engineering College Alumni came out in April 1988. KEC alumni association was formally inaugurated on 8th February 1997.Since inception KECAA has actively involved in various activities, focusing on its vision and mission."
+                    android:textSize="20dp"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="550dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+                    android:text="VISION:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="580dp"
+                    android:layout_marginRight="10dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="sans-serif"
+                    android:text="1)To act as a bridge among the students, management, staff and alumni of KEC for mutual benefit and synergy.
+\n2)To build a better interaction through application of strengths and resources of alumni, student and staff to improve the quality of society.
+\n3)To actively work for relationship among the alumni for their career growth."
+                    android:textSize="20dp"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="810dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+                    android:text="MISSION:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="840dp"
+                    android:layout_marginRight="10dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="sans-serif"
+                    android:text="1)To act as a forum for exchange of information among its members and to act as fine link between the old students and college.
+\n2)To provide students guidance for higher studies and career development as and when required by them, with help from alumni.
+\n3)To maintain a compendium of all alumni in different parts of the world.
+\n4)To establish, promote and support the local chapters of the association in different parts of the world."
+                    android:textSize="20dp"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1170dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+                    android:text="KEC PARENT CHAPTER:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1200dp"
+                    android:layout_marginRight="10dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="sans-serif"
+                    android:text="To strengthen the activities of KECAA, KEC parent chapter has been formed in the college with an advisor and representatives from various departments. It is actively engaged in keeping close rapport with a committee of office bearers consisting of President, Vice President, Secretary, Joint Secretary and among the alumni. It also maintains the data bank of the members of alumni."
+                    android:textSize="20dp"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1450dp"
+                    android:layout_marginRight="10dp"
+                    android:fontFamily="serif"
+                    android:text="OUR HISTORY:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="1480dp"
+                    android:layout_marginRight="10dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="sans-serif"
+                    android:text="1)The first batch of Kongu Engineering College Alumni came out in April 1988. KEC alumni association was formally inaugurated on 8th February 1997.
+\n2)Since inception KECAA has actively involved in various activities, focusing on its vision and mission.
+\n3)To strengthen the activities of KECAA, KEC parent chapter has been formed in the college with an advisor and representatives from various departments.
+\n4)It is actively engaged in keeping close rapport with a committee of office bearers consisting of President, Vice President, Secretary, Joint Secretary and among the alumni. It also maintains the data bank of the members of alumni."
+                    android:textSize="20dp"
+                    android:textStyle="normal">
+
+                </TextView>
+
+
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="1000dp"
+                    android:layout_marginTop="1800dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/screen1"></ImageView>
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="1000dp"
+                    android:layout_marginTop="2450dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/screen2"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="3300dp"
+                    android:fontFamily="serif"
+                    android:text="We are not just Friends, We are a Family"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="3350dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/map"></ImageView>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+<com.google.android.material.navigation.NavigationView
+    app:headerLayout="@layout/header"
+    android:id="@+id/nav_view"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:itemTextColor="@color/darkgray"
+    app:itemIconTint="@color/darkgray"
+    app:menu="@menu/drawermenu"
+    android:layout_gravity="start"
+    tools:ignore="MissingClass">
+
+
+</com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

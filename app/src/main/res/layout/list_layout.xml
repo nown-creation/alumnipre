@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aladin"
+        android:text="Date    :"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="#0C2FEF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/DateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@id/Date"
+        android:fontFamily="@font/aladin"
+        android:text="Date value"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Date"
+        android:fontFamily="@font/aladin"
+        android:text="Event  :"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="#0D30ED"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/EventValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/Event"
+        android:fontFamily="@font/aladin"
+        android:text="Event value"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Event"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/aladin"
+        android:text="Time    :"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="#0D30ED"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TimeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="45dp"
+        android:layout_toRightOf="@id/Time"
+        android:fontFamily="@font/aladin"
+        android:text="Time value"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/Place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Time"
+        android:fontFamily="@font/aladin"
+        android:text="Place  :"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="#0D30ED"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/PlaceValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="68dp"
+        android:layout_toRightOf="@id/Place"
+        android:fontFamily="@font/aladin"
+        android:text="place value"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textSize="18sp" />
+
+
+
+
+
+</RelativeLayout>
