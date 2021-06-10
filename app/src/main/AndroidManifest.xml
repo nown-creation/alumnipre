@@ -62,9 +62,12 @@
         <activity android:name=".EventsActivity" />
         <activity android:name=".GalleryActivity" />
         <activity android:name=".AboutusActivity" />
-        <activity android:name=".Dashboard" />
         <activity android:name=".Directory" />
         <activity android:name=".Directory2" />
+        <activity android:name=".MainActivity3"/>
+        <activity android:name=".about"/>
+        <activity android:name=".Dashboard"/>
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

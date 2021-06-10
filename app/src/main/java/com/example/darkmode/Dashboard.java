@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageButton;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -34,23 +33,23 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
                 switch (item.getItemId()) {
 
                     case R.id.notify:
-                        startActivity(new Intent(com.example.darkmode.Dashboard.this, com.example.darkmode.notify.class));
+                        startActivity(new Intent(Dashboard.this, notify.class));
                         return true;
 
                     case R.id.terms:
-                        startActivity(new Intent(com.example.darkmode.Dashboard.this, terms.class));
+                        startActivity(new Intent(Dashboard.this, terms.class));
                         return true;
 
                     case R.id.privacy:
-                        startActivity(new Intent(com.example.darkmode.Dashboard.this, policy.class));
+                        startActivity(new Intent(Dashboard.this, policy.class));
                         return true;
 
                     case R.id.mode:
-                        startActivity(new Intent(com.example.darkmode.Dashboard.this, dark_mode.class));
+                        startActivity(new Intent(Dashboard.this, dark_mode.class));
                         return true;
 
                     case R.id.login:
-                        startActivity(new Intent(com.example.darkmode.Dashboard.this, login.class));
+                        startActivity(new Intent(Dashboard.this, login.class));
                         return true;
 
                 }
@@ -77,7 +76,7 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
 
 
         mDrawerLayout=(DrawerLayout)findViewById(R.id.drawer);
-        mToggle=new ActionBarDrawerToggle(this,mDrawerLayout,R.string.open,R.string.close);
+        mToggle=new ActionBarDrawerToggle(this,mDrawerLayout, R.string.open, R.string.close);
         mDrawerLayout.addDrawerListener(mToggle);
         mToggle.syncState();
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -136,32 +135,32 @@ public class Dashboard extends AppCompatActivity implements View.OnClickListener
 
 
             case R.id.cardgallery :
-                i = new Intent(this,GalleryActivity.class);
+                i = new Intent(this, GalleryActivity.class);
                 startActivity(i);
                 break;
 
             case R.id.cardevents :
-                i = new Intent(this,EventsActivity.class);
+                i = new Intent(this, EventsActivity.class);
                 startActivity(i);
                 break;
 
             case R.id.cardchapters :
-                i = new Intent(this,Chapter.class);
+                i = new Intent(this, Chapter.class);
                 startActivity(i);
                 break;
 
             case R.id.cardachievements :
-                i = new Intent(this,achievement.class);
+                i = new Intent(this, achievement.class);
                 startActivity(i);
                 break;
 
             case R.id.cardcontribution :
-                i = new Intent(this,contribution.class);
+                i = new Intent(this, contribution.class);
                 startActivity(i);
                 break;
 
             case R.id.carddirectory :
-                i = new Intent(this,Directory.class);
+                i = new Intent(this, Directory.class);
                 startActivity(i);
                 break;
         }

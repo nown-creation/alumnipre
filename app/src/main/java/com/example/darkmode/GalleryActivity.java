@@ -11,6 +11,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
 import java.util.ArrayList;
@@ -25,6 +26,8 @@ public class GalleryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gallery);
+
+
 
         NavigationView nav_view=(NavigationView)findViewById(R.id.nav_view);
 
@@ -113,6 +116,8 @@ public class GalleryActivity extends AppCompatActivity {
         postItems.add(new com.example.darkmode.PostItem((R.drawable.g34)));
 
         postsRecyclerView.setAdapter(new com.example.darkmode.PostsAdapter(postItems));
+
+
 
     }
     @Override
